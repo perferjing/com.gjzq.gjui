@@ -1,3 +1,9 @@
+/**
+* v1.0.0
+*
+*
+*/
+
 function mystorage(ms) {
 	var storage = window.localStorage;
 	if (!window.localStorage) {

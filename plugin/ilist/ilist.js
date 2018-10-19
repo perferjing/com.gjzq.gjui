@@ -1,6 +1,8 @@
-/**
- * plugin name : mui复杂列表插件 author : jingws date : 2017-12-25 version : 1.0.1 尼玛
- * 累死我了
+/**v1.0.1
+ * plugin name : mui复杂列表插件 
+ *author : jingws date : 2017-12-25 
+ *version : 1.0.1 
+ * 尼玛累死我了
  */
 
 (function(window, doc) {
