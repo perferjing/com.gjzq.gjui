@@ -1,7 +1,7 @@
 /**v1.0.1
  * plugin name : mui复杂列表插件 
  *author : jingws date : 2017-12-25 
- *version : 1.0.1 
+ *version : 1.0.2
  * 尼玛累死我了
  */
 
@@ -195,6 +195,7 @@
 								comp
 										.endPullUpToRefresh((++ilistObj.count[index] > ilistObj.total[index])); // 参数为true代表没有更多数据了。
 								scrollList.innerHTML += html;
+									if (ilistObj.storage) {
 								if (ilistObj.wappers instanceof Array) {
 									if (ilistObj.y[index])
 										ilistObj.wappers[index].scrollTo(0,
@@ -203,7 +204,7 @@
 									ilistObj.wappers.scrollTo(0,
 											Number(ilistObj.y), 0);
 								}
-							}
+							}}
 						}
 					}, false);
 			ilistObj.hasMemory[index] = false;
